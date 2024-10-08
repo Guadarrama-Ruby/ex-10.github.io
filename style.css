@@ -1,0 +1,17 @@
+body {
+    width: 600px;
+    padding: 30px;
+    margin: 30px;
+    border: solid;
+    border-radius: 2rem;
+    justify-content: center;
+}
+
+main .content{
+    display: none;
+}
+
+main .content.active{
+    display: block;
+}
+
